@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/goButton"
+        android:text=""
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#D1D1D1"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:elevation="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/lunchr"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How far do you want to walk?"
+        android:id="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <view
+        class="com.example.aaron.lunchr.Result$ResultsView"
+        android:id="@+id/resultsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.aaron.lunchr.Social">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:text="@string/activity_social_findOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_underBanner"
+        android:layout_marginTop="60dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/activity_social_loadingChats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/databaseEntries"
+        android:layout_marginTop="100dp"
+        android:maxHeight="300dp"   />
+
+    <TextView
+        android:text="@string/title_activity_social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_banner"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="@string/activity_social_setChatName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/social_button_setChatName"
+        android:layout_marginBottom="15dp"
+        android:onClick="setChatName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:text="@string/activity_social_sendChatMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_social_sendChatMessage"
+        android:layout_marginStart="150dp"
+        android:onClick="sendChatMessage"
+        android:layout_alignBaseline="@+id/social_button_setChatName"
+        android:layout_alignBottom="@+id/social_button_setChatName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:text="@string/activity_social_setChatMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_social_setChatMessage"
+        android:layout_marginStart="150dp"
+        android:onClick="setChatMessage"
+        android:layout_alignBaseline="@+id/button_social_sendChatMessage"
+        android:layout_alignBottom="@+id/button_social_sendChatMessage"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

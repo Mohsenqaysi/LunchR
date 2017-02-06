@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#59428c</color>
+    <color name="colorPrimaryDark">#d7934a</color>
+    <color name="colorAccent">#59428c</color>
+    <color name="OpenHourseColor">#59428c</color>
+
+    <!-- rating bar custom color -->
+    <color name="indigo">#ffffff</color>
+    <color name="pink">#ffffff</color>
+</resources>

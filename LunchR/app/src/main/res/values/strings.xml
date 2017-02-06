@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LunchR</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_social">LunchR Chat</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_selection">Selection</string>
+
+    <string name="activity_social_findOut">Chat amongst yourselves!</string>$
+    <string name="activity_social_loadingChats">Loading chats...</string>
+    <string name="activity_social_sendChatMessage">Send chat</string>
+    <string name="activity_social_setChatMessage">Set message</string>
+    <string name="activity_social_setChatName">Set name</string>
+</resources>
